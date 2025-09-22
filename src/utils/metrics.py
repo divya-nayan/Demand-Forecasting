@@ -1,3 +1,9 @@
+"""
+Custom metrics for demand forecasting evaluation
+Author: Divya Nayan (divyanayan88@gmail.com)
+Copyright: © 2024 Divya Nayan. All rights reserved.
+"""
+
 import numpy as np
 from typing import Union, List
 

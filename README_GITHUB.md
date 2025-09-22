@@ -2,6 +2,9 @@
 
 A modular machine learning pipeline for demand forecasting using ensemble methods.
 
+**Author**: Divya Nayan (divyanayan88@gmail.com)
+**Copyright**: © 2024 Divya Nayan. All rights reserved.
+
 ## Overview
 
 This project implements a comprehensive demand forecasting system that uses multiple machine learning models (Random Forest, XGBoost, LightGBM, Ridge, ElasticNet) combined in an ensemble to predict future demand patterns.
@@ -136,23 +139,17 @@ The pipeline generates:
 - `training_summary.csv`: Model performance metrics
 - Individual combination outputs in subdirectories
 
-## Contributing
+## Author & Contact
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+**Divya Nayan**
+Email: divyanayan88@gmail.com
+
+## License
+
+© 2024 Divya Nayan. All rights reserved.
 
 ## Security Notes
 
 - Never commit `.env` files or `database_config.py` with real credentials
 - Use environment variables for all sensitive information
 - Review `.gitignore` before committing
-
-## License
-
-[Specify your license here]
-
-## Contact
-
-[Your contact information]

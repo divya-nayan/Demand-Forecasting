@@ -2,6 +2,8 @@
 """
 Template for data fetching from database
 Use this as a reference for creating notebooks
+Author: Divya Nayan (divyanayan88@gmail.com)
+Copyright: © 2024 Divya Nayan. All rights reserved.
 """
 
 import pandas as pd

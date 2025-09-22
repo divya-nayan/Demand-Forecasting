@@ -1,7 +1,9 @@
 """
-Database configuration template
+Database configuration template for demand forecasting system
 Copy this file to database_config.py and fill in your actual credentials
 DO NOT commit database_config.py to version control!
+Author: Divya Nayan (divyanayan88@gmail.com)
+Copyright: © 2024 Divya Nayan. All rights reserved.
 """
 
 import os

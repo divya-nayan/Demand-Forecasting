@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """
 Database Upload Script for Forecasting Results
+Author: Divya Nayan (divyanayan88@gmail.com)
+Copyright: © 2024 Divya Nayan. All rights reserved.
+
 Uploads merged forecasting outputs to SQL Server database
 """
 

@@ -1,5 +1,8 @@
 # Notebook Templates
 
+Author: Divya Nayan (divyanayan88@gmail.com)
+Copyright: © 2024 Divya Nayan. All rights reserved.
+
 This directory contains clean Python templates that can be used as references for creating Jupyter notebooks.
 
 ## Important Security Notes

@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
 Upload specific forecasting files to database with new date-only naming
+Author: Divya Nayan (divyanayan88@gmail.com)
+Copyright: © 2024 Divya Nayan. All rights reserved.
 """
 
 import pandas as pd

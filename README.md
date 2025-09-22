@@ -2,6 +2,9 @@
 
 A production-level demand forecasting system for time series prediction with comprehensive model evaluation and forecasting capabilities.
 
+**Author**: Divya Nayan (divyanayan88@gmail.com)
+**Copyright**: © 2024 Divya Nayan. All rights reserved.
+
 ## Project Structure
 
 ```
@@ -129,3 +132,12 @@ The codebase has been organized into logical modules:
 - **Config**: Centralized configuration management
 
 This structure improves maintainability while preserving the original functionality.
+
+## Author & Contact
+
+**Divya Nayan**
+Email: divyanayan88@gmail.com
+
+## License
+
+© 2024 Divya Nayan. All rights reserved.

@@ -1,3 +1,9 @@
+"""
+UAE holidays utility module for demand forecasting
+Author: Divya Nayan (divyanayan88@gmail.com)
+Copyright: © 2024 Divya Nayan. All rights reserved.
+"""
+
 import holidays
 from typing import Set
 from datetime import date

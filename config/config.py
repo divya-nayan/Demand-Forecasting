@@ -1,3 +1,9 @@
+"""
+Configuration settings for demand forecasting pipeline
+Author: Divya Nayan (divyanayan88@gmail.com)
+Copyright: © 2024 Divya Nayan. All rights reserved.
+"""
+
 import os
 from pathlib import Path
 

@@ -1,3 +1,9 @@
+"""
+Model evaluation and performance analysis for demand forecasting
+Author: Divya Nayan (divyanayan88@gmail.com)
+Copyright: © 2024 Divya Nayan. All rights reserved.
+"""
+
 import pandas as pd
 import numpy as np
 from typing import Dict, Any

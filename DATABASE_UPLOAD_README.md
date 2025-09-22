@@ -1,5 +1,8 @@
 # Database Upload Guide
 
+Author: Divya Nayan (divyanayan88@gmail.com)
+Copyright: © 2024 Divya Nayan. All rights reserved.
+
 This guide explains how to upload forecasting results to the SQL Server database after running the main pipeline.
 
 ## Prerequisites

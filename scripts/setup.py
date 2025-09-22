@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
 Setup script for the Demand Forecasting Pipeline
+Author: Divya Nayan (divyanayan88@gmail.com)
+Copyright: © 2024 Divya Nayan. All rights reserved.
 """
 
 import os

@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """
 Modular Demand Forecasting Pipeline
-This version uses modular components from src/ directory
-Performs the same functionality as standalone_demand_script.py but with modular architecture
+Author: Divya Nayan (divyanayan88@gmail.com)
+Copyright: © 2024 Divya Nayan. All rights reserved.
+
+A comprehensive demand forecasting system using ensemble machine learning models.
+This version uses modular components from src/ directory for better maintainability.
 """
 
 import pandas as pd
