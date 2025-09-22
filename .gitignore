@@ -4,6 +4,9 @@ __pycache__/
 *$py.class
 *.pyc
 
+# C extensions
+*.so
+
 # Distribution / packaging
 .Python
 build/
@@ -18,6 +21,7 @@ parts/
 sdist/
 var/
 wheels/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -30,6 +34,8 @@ env/
 ENV/
 .env
 .env.local
+env.bak/
+venv.bak/
 
 # IDE
 .vscode/
@@ -74,11 +80,14 @@ logs/
 *.ipynb_checkpoints
 notebooks/
 *.ipynb
+profile_default/
+ipython_config.py
 
 # Configuration with credentials
 config/database_config.py
 config/credentials.py
 *.env
+.envrc
 secrets.py
 secrets.json
 config.ini
@@ -88,6 +97,14 @@ database.ini
 test_*.py
 *_test.py
 tests/
+.pytest_cache/
+.coverage
+htmlcov/
+.hypothesis/
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
 
 # Temporary files
 *.tmp
@@ -99,19 +116,116 @@ tests/
 # Documentation builds
 docs/_build/
 docs/build/
+/site
 
-# Cache
+# Cache and type checking
 .cache/
-.pytest_cache/
-.coverage
-htmlcov/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.ruff_cache/
 
 # Database files
 *.db
 *.sqlite
 *.sqlite3
+db.sqlite3
+db.sqlite3-journal
 
 # Sensitive or personal files
 credentials/
 private/
 confidential/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.nox/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+poetry.toml
+
+# pdm
+.pdm-python
+.pdm-build/
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# mkdocs documentation
+/site
+
+# Pyre type checker
+.pyre/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#.idea/
+
+# Abstra
+.abstra/
+
+# Visual Studio Code
+#.vscode/
+
+# PyPI configuration file
+.pypirc
+
+# Cursor
+.cursorignore
+.cursorindexingignore
+
+# Marimo
+marimo/_static/
+marimo/_lsp/
+__marimo__/
