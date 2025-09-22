@@ -1,0 +1,117 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+.spyderproject
+.spyproject
+.ropeproject
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data files (IMPORTANT: No real data in repository)
+data/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.pkl
+*.joblib
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Output directories
+original_demand_forecasting_outputs/
+updated_demand_forecasting_outputs/
+demand_forecasting_outputs/
+outputs/
+results/
+models/
+logs/
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+notebooks/
+*.ipynb
+
+# Configuration with credentials
+config/database_config.py
+config/credentials.py
+*.env
+secrets.py
+secrets.json
+config.ini
+database.ini
+
+# Test files
+test_*.py
+*_test.py
+tests/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+~*
+*~
+
+# Documentation builds
+docs/_build/
+docs/build/
+
+# Cache
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Sensitive or personal files
+credentials/
+private/
+confidential/
